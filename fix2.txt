@@ -28,10 +28,11 @@ git checkout main
 git cherry-pick f2439c75
 git add fix2.txt
 git commit -m "Added commands"
+git tag -a v1.0 -m "Version 1.0"
 git rebase -i HEAD~2
 ändra andra commit till squash istället och la till :wq
 ändrade commit message
 git rebase --continue
 git checkout -b feature3
 git add fix2.txt
-git commit -m "Update fix2"
+git commit -m "Update fix2.txt"
